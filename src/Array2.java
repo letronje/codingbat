@@ -447,7 +447,6 @@ public class Array2 {
 	
 	public static boolean has12(int[] nums) {
 		boolean found1 = false;
-		int l = nums.length;
 		for(int n: nums){
 			if(n == 1){
 				found1 = true;

@@ -282,7 +282,6 @@ public class String2 {
 	
 	public static String repeatFirst(String str, int n ) {
 		String s = "";
-		int l = s.length();
 		for(int i=n;i>=1;i--){
 			s += str.substring(0, i);
 		}
